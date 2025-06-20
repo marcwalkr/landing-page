@@ -1,3 +1,117 @@
+:root {
+  /* Font sizes */
+  --font-sm: 18px;
+  --font-med: 24px;
+  --font-lg: 36px;
+  --font-xl: 48px;
+
+  /* Font weights */
+  --font-weight-quiet: 300;
+  --font-weight-strong: 600;
+  --font-weight-title: 900;
+
+  /* Colors */
+  --color-light: #F9FAF8;
+  --color-muted: #E5E7EB;
+  --color-gray: #686F7A;
+  --color-dark: #1F2937;
+  --color-accent: #3882F6;
+}
+
 body {
   font-family: "Roboto", sans-serif;
+}
+
+header {
+  background-color: var(--color-dark);
+}
+
+.header__logo {
+  font-size: var(--font-med);
+  font-weight: var(--font-weight-strong);
+  color: var(--color-light);
+}
+
+.header__link {
+  font-size: var(--font-sm);
+  color: var(--color-muted);
+}
+
+.hero {
+  background-color: var(--color-dark);
+}
+
+.hero__main-text {
+  font-size: var(--font-xl);
+  font-weight: var(--font-weight-title);
+  color: var(--color-light);
+}
+
+.hero__secondary-text {
+  font-size: var(--font-sm);
+  color: var(--color-muted);
+}
+
+.hero__image-placeholder {
+  font-size: var(--font-sm);
+  color: var(--color-light);
+  background-color: var(--color-gray);
+}
+
+.information__title {
+  font-size: var(--font-lg);
+  font-weight: var(--font-weight-title);
+  color: var(--color-dark);
+}
+
+.card__text {
+  font-size: var(--font-sm);
+  color: var(--color-gray);
+}
+
+.quote {
+  background-color: var(--color-muted);
+}
+
+.quote__text {
+  font-size: var(--font-lg);
+  font-weight: var(--font-weight-quiet);
+  font-style: italic;
+}
+
+.quote__attribution {
+  font-size: var(--font-med);
+  font-weight: var(--font-weight-strong);
+}
+
+.cta__content {
+  background-color: var(--color-accent);
+}
+
+.cta__main-text {
+  font-size: var(--font-med);
+  font-weight: var(--font-weight-strong);
+  color: var(--color-light);
+}
+
+.cta__secondary-text {
+  font-size: var(--font-sm);
+  color: var(--color-muted);
+}
+
+footer {
+  background-color: var(--color-dark);
+}
+
+.footer__text {
+  font-size: var(--font-sm);
+  color: var(--color-light);
+}
+
+.button {
+  font-family: inherit;
+  font-size: var(--font-sm);
+  font-weight: var(--font-weight-strong);
+  color: var(--color-light);
+  background-color: var(--color-accent);
 }
