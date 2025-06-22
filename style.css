@@ -113,10 +113,24 @@ header {
   height: 240px;
 }
 
+.information {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 48px;
+  padding: 48px 0 120px;
+}
+
 .information__title {
   font-size: var(--font-lg);
   font-weight: var(--font-weight-title);
   color: var(--color-dark);
+}
+
+.information__card-container {
+  display: flex;
+  justify-content: center;
+  gap: 48px;
 }
 
 .card {
