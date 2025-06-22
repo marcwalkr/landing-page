@@ -32,12 +32,32 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.button {
+  font-family: inherit;
+  font-size: var(--font-sm);
+  font-weight: var(--font-weight-strong);
+  color: var(--color-light);
+  background-color: var(--color-accent);
+  width: fit-content;
+  padding: 8px 36px;
+  border-radius: 8px;
+}
+
+.button--no-border {
+  border-style: none;
+}
+
 header {
   background-color: var(--color-dark);
-  padding-top: 16px;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
+  padding: 16px;
 }
 
 .header__logo {
@@ -60,6 +80,14 @@ header {
 
 .hero {
   background-color: var(--color-dark);
+  padding: 120px 16px;
+}
+
+.hero__text {
+  display: flex;
+  flex-direction: column;
+  width: 470px;
+  gap: 8px;
 }
 
 .hero__main-text {
@@ -77,6 +105,12 @@ header {
   font-size: var(--font-sm);
   color: var(--color-light);
   background-color: var(--color-gray);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  width: 520px;
+  height: 240px;
 }
 
 .information__title {
@@ -127,12 +161,4 @@ footer {
 .footer__text {
   font-size: var(--font-sm);
   color: var(--color-light);
-}
-
-.button {
-  font-family: inherit;
-  font-size: var(--font-sm);
-  font-weight: var(--font-weight-strong);
-  color: var(--color-light);
-  background-color: var(--color-accent);
 }
