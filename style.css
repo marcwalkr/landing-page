@@ -75,7 +75,7 @@ header {
 }
 
 .header__logo {
-  font-size: var(--font-med);
+  font-size: var(--font-md);
   font-weight: var(--font-weight-title);
   color: var(--color-light);
 }
@@ -189,7 +189,7 @@ header {
 }
 
 .quote__attribution {
-  font-size: var(--font-med);
+  font-size: var(--font-md);
   font-weight: var(--font-weight-strong);
   text-align: right;
   padding-right: var(--space-md);
@@ -212,7 +212,7 @@ header {
 }
 
 .cta__main-text {
-  font-size: var(--font-med);
+  font-size: var(--font-md);
   font-weight: var(--font-weight-strong);
   color: var(--color-light);
 }
