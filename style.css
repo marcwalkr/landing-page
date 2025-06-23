@@ -213,6 +213,10 @@ header {
 
 footer {
   background-color: var(--color-dark);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 0;
 }
 
 .footer__text {
