@@ -184,8 +184,20 @@ header {
   padding-right: 36px;
 }
 
+.cta {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 100px 0;
+}
+
 .cta__content {
   background-color: var(--color-accent);
+  display: flex;
+  align-items: center;
+  gap: 140px;
+  padding: 48px 130px;
+  border-radius: 8px;
 }
 
 .cta__main-text {
