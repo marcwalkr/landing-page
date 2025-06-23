@@ -1,9 +1,18 @@
 :root {
   /* Font sizes */
   --font-sm: 18px;
-  --font-med: 24px;
+  --font-md: 24px;
   --font-lg: 36px;
   --font-xl: 48px;
+
+  /* Spacing */
+--space-xxs: 8px;
+--space-xs: 16px;
+--space-sm: 24px;
+--space-md: 32px;
+--space-lg: 48px;
+--space-xl: 96px;
+--space-xxl: 120px;
 
   /* Font weights */
   --font-weight-quiet: 200;
@@ -62,7 +71,7 @@ body {
 
 header {
   background-color: var(--color-dark);
-  padding: 16px;
+  padding: var(--space-xs);
 }
 
 .header__logo {
@@ -74,7 +83,7 @@ header {
 .header__links {
   list-style: none;
   display: flex;
-  gap: 24px;
+  gap: var(--space-sm);
 }
 
 .header__link {
@@ -85,14 +94,14 @@ header {
 
 .hero {
   background-color: var(--color-dark);
-  padding: 120px 16px;
+  padding: var(--space-xxl) var(--space-xs);
 }
 
 .hero__text {
   display: flex;
   flex-direction: column;
   width: 470px;
-  gap: 8px;
+  gap: var(--space-xxs);
 }
 
 .hero__main-text {
@@ -122,8 +131,8 @@ header {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 48px;
-  padding: 48px 0 120px;
+  gap: var(--space-lg);
+  padding: var(--space-lg) 0 var(--space-xxl);
 }
 
 .information__title {
@@ -135,14 +144,14 @@ header {
 .information__card-container {
   display: flex;
   justify-content: center;
-  gap: 48px;
+  gap: var(--space-lg);
 }
 
 .card {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 8px;
+  gap: var(--space-xxs);
 }
 
 .card__image {
@@ -164,7 +173,7 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 120px 0;
+  padding: var(--space-xxl) 0;
 }
 
 .quote__content {
@@ -182,22 +191,22 @@ header {
   font-size: var(--font-med);
   font-weight: var(--font-weight-strong);
   text-align: right;
-  padding-right: 36px;
+  padding-right: var(--space-md);
 }
 
 .cta {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 100px 0;
+  padding: var(--space-xl) 0;
 }
 
 .cta__content {
   background-color: var(--color-accent);
   display: flex;
   align-items: center;
-  gap: 140px;
-  padding: 48px 130px;
+  gap: var(--space-xxl);
+  padding: var(--space-lg) var(--space-xxl);
   border-radius: 8px;
 }
 
@@ -217,7 +226,7 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 40px 0;
+  padding: var(--space-md) 0;
 }
 
 .footer__text {
