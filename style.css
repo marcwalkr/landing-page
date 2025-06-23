@@ -205,9 +205,11 @@ header {
 .cta__content {
   background-color: var(--color-accent);
   display: flex;
+  justify-content: space-around;
   align-items: center;
-  gap: var(--space-xxl);
-  padding: var(--space-lg) var(--space-xxl);
+  max-width: 1000px;
+  width: 100%;
+  padding: var(--space-lg) 0;
   border-radius: 8px;
 }
 
