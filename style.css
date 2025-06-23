@@ -49,6 +49,7 @@ body {
   width: 135px;
   height: 40px;
   border-radius: 8px;
+  flex-shrink: 0;
 }
 
 .button--no-border {
