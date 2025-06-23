@@ -55,6 +55,10 @@ body {
   border-style: none;
 }
 
+.button--white-border {
+  border: 2px solid white;
+}
+
 header {
   background-color: var(--color-dark);
   padding: 16px;
