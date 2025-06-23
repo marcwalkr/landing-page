@@ -6,7 +6,7 @@
   --font-xl: 48px;
 
   /* Font weights */
-  --font-weight-quiet: 300;
+  --font-weight-quiet: 200;
   --font-weight-strong: 600;
   --font-weight-title: 900;
 
@@ -156,6 +156,15 @@ header {
 
 .quote {
   background-color: var(--color-muted);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 120px 0;
+}
+
+.quote__content {
+  max-width: 780px;
+  width: 100%;
 }
 
 .quote__text {
@@ -167,6 +176,8 @@ header {
 .quote__attribution {
   font-size: var(--font-med);
   font-weight: var(--font-weight-strong);
+  text-align: right;
+  padding-right: 36px;
 }
 
 .cta__content {
