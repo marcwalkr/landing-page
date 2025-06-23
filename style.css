@@ -236,3 +236,7 @@ footer {
   font-size: var(--font-sm);
   color: var(--color-light);
 }
+
+.footer__symbol {
+  margin: 0 var(--space-xxs);
+}
