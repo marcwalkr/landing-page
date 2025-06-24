@@ -101,7 +101,7 @@ header {
 .hero__text {
   display: flex;
   flex-direction: column;
-  width: 470px;
+  flex-basis: 470px;
   gap: var(--space-xxs);
 }
 
@@ -179,8 +179,7 @@ header {
 }
 
 .quote__content {
-  max-width: 780px;
-  width: 100%;
+  flex: 0 1 780px;
 }
 
 .quote__text {
@@ -208,8 +207,7 @@ header {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  max-width: 1000px;
-  width: 100%;
+  flex: 0 1 1000px;
   padding: var(--space-lg) 0;
   border-radius: 8px;
 }
