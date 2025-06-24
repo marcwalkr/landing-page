@@ -55,8 +55,9 @@ body {
   font-weight: var(--font-weight-strong);
   color: var(--color-light);
   background-color: var(--color-accent);
-  width: 135px;
-  height: 40px;
+  padding: 8px 36px;
+  width: fit-content;
+  height: auto;
   border-radius: 8px;
   flex-shrink: 0;
 }
